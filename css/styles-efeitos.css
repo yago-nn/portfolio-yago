@@ -1,0 +1,130 @@
+#link:hover {
+    background-color: rgb(58, 137, 255);
+    color: white;
+    transition: 0.3s;
+}
+
+#zap:hover {
+    background-color: rgb(8, 247, 8);
+    color: white;
+    transition: 0.3s;
+}
+
+#git:hover {
+    background-color: rgb(228, 65, 65);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+
+.bt button:hover {
+    background-color: #ffffff !important;
+    border-radius: 10px;
+    color: #000000 !important;
+    transform: scale(1.1);
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+.grid-itens .item:hover {
+    border-color: #99ff00;
+    background-color: #232526;
+
+}
+
+.grid-itens .item:hover p {
+    border-color: #99ff00;
+    background-color: #232526;
+
+}
+
+.grid-itens .item:hover i {
+    background-color: transparent;
+    border-radius: 8px;
+
+}
+
+.git-ir:hover {
+    border-radius: 8px;
+    color: #000000;
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 2px 12px rgba(153, 255, 0, 0.15);
+    transition:
+        background 0.3s,
+        color 0.3s,
+        border 0.3s,
+        box-shadow 0.3s,
+        transform 0.2s;
+}
+
+.git-ir:hover i {
+    background-color: #222;
+    border-radius: 50%;
+    transition: background 0.3s, color 0.3s;
+}
+
+.cards .previa:hover {
+    background-color: #99ff00;
+    border-radius: 8px;
+    color: #000000;
+
+    transform: translateY(-2px) scale(1.04);
+    transition:
+        background 0.3s,
+        color 0.3s,
+        border 0.3s,
+        box-shadow 0.3s,
+        transform 0.2s;
+}
+
+input:hover,
+textarea:hover {
+    background-color: #232526 !important;
+    color: #ffffff !important;
+}
+
+.itens input:focus,
+.itens textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.contato-opcoes .opcao:hover {
+    background-color: #ffffff !important;
+    border-radius: 10px;
+    color: #000000 !important;
+    transform: scale(1.1);
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+.contato-opcoes .opcao a:hover i {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    transform: scale(1.1);
+
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+.contato-opcoes .opcao a:hover {
+    color: #000000 !important;
+}
+.titulo-digitado {
+  font-family: "Poppins", sans-serif;
+  font-size: 40pt;
+  display: inline-block;
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 5px;
+  animation: piscarCursor 0.8s infinite;
+  color: #99ff00;
+  font-weight:500;
+}
+
+@keyframes piscarCursor {
+  0%, 50% {
+    opacity: 1;
+  }
+  50.01%, 100% {
+    opacity: 0;
+  }
+}

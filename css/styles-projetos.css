@@ -1,0 +1,74 @@
+#projetos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0 60px;
+    padding-bottom: 90px;
+    border-bottom: 0.1em solid rgb(83, 83, 83);
+    scroll-margin-top: 80px;
+
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 30pt;
+        margin-bottom: 10px;
+        text-align: center;
+        color: rgb(153, 255, 0);
+    }
+
+    .cards {
+        display: grid;
+        margin: 40px 0px 0;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 0px;
+        text-align: center;
+
+        .card-exemplo {
+            font-family: "Roboto", sans-serif;
+            font-weight: 200;
+            margin: 0 auto;
+            display: flex;
+            width: 350px;
+            border-radius: 15px;
+            padding: 50px 47px 30px;
+            border: 1px solid wheat;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+
+            .botoes {
+                display: flex;
+                margin: 10px 36px 0;
+                justify-content: space-around;
+            }
+        }
+
+        button {
+            background-color: transparent;
+            cursor: pointer;
+            color: white;
+            padding: 9px 29px 9px;
+            border: 2px solid white;
+            border-bottom: 7px solid white;
+            border-radius: 8px;
+        }
+
+        img {
+            display: block;
+            border: 1px solid white;
+            background-color: rgb(145, 143, 143);
+            height: 120px;
+            width: 330px;
+            margin: 0 auto;
+        }
+
+        .texto {
+            margin: 0 auto;
+            width: 350px;
+            text-align: justify;
+        }
+    }
+
+
+}

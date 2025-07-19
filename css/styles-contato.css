@@ -1,0 +1,72 @@
+#contato {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 300px 40px;
+    scroll-margin-top: 80px;
+    background-color: #161616;
+    padding-bottom: 40px;
+    border-radius: 27px;
+    
+    .titulo{
+        background-color:  #161616;
+    }
+    .info-contato{
+        background-color:  #161616;
+    }
+    h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 30pt;
+        margin-bottom: 10px;
+        color: rgb(153, 255, 0);
+        background-color:  #161616;
+    }
+
+    h3{
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 15pt;
+        margin-bottom: 10px;
+        color: rgb(255, 255, 255);
+        background-color:  #161616;
+    }
+    p{
+        max-width: 600px;
+        text-align:justify;
+        margin: 0 auto;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        background-color:  #161616;
+    }
+   .links-contato{
+    margin: 40px 500px 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    background-color:  #161616;
+   }
+   .links-contato a {
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s;
+        background-color:  #161616;
+        i{
+                background-color: transparent;
+        }
+    }
+
+ 
+
+
+}
+   footer {
+    border-top: 0.1em solid rgb(83, 83, 83);
+    padding: 25px 0 25px;
+    text-align: center;
+        margin-top: 50px;
+        font-family: "Poppins", sans-serif;
+        font-size: 12pt;
+        color: rgb(255, 255, 255);
+    }

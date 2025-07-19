@@ -1,0 +1,224 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+
+    h1 {
+        color: rgb(153, 255, 0);
+    }
+}
+
+.nav-container {
+    width: 100%;
+    padding: 15px 0 20px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.1em solid white;
+}
+
+.nav {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-size: 11pt;
+
+}
+
+.nav p {
+    font-size: 21pt;
+    margin: 0;
+}
+
+.yn {
+  color: #99ff00 !important;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.yn:hover {
+  color: #ffffff;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s, border-bottom 0.3s, font-weight 0.3s;
+}
+
+.nav ul {
+     position: relative;
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav ul li {
+    position: relative;
+}
+
+.nav-menu{
+    position: relative;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.nav a {
+    text-decoration: none;
+}
+.nav ul li a.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 3px;
+    background: #99ff00;
+    border-radius: 2px;
+    transition: left 0.3s, width 0.3s;
+}
+.nav-underline {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 3px;
+    background: #99ff00;
+    border-radius: 2px;
+    transition: left 0.3s, width 0.3s;
+    z-index: 1;
+}
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    scroll-margin-top: 80px;
+    margin: 80px 180px 60px;
+
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 40pt;
+    }
+
+    p {
+        font-family: "Roboto", sans-serif;
+        ;
+        font-size: 15pt;
+    }
+
+    img {
+        z-index: 10;
+        width: 34%;
+        position: absolute;
+        top: 78px;
+        left: 57%;
+        /* passa cliques para trás */
+        background: transparent;
+
+    }
+
+    .circulo {
+        position: absolute;
+        top: 27%;
+        left: 61%;
+        width: 350px;
+        height: 350px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+
+    }
+}
+
+.info-sem-bt {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    color: white;
+    margin: 55px 0 30px;
+
+    p {
+        line-height: 5px;
+    }
+
+    ul {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        list-style: none;
+    }
+
+    i {
+        color: white;
+        font-size: 32px;
+        margin: 0 10px;
+        border: 1px solid white;
+        border-radius: 100%;
+        padding: 14px;
+        margin: 0 10px 0;
+    }
+
+
+}
+
+.bt {
+    margin-left: 77px;
+}
+.bt button {
+        background-color: transparent;
+        cursor: pointer;
+        color: white;
+        padding: 16px 23px;
+        border: 1px solid white;
+        border-bottom: 7px solid white;
+        border-radius: 8px;
+    }
+#btn-topo {
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    background: #99ff00;
+    color: #222;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 22px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(153,255,0,0.15);
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+}
+#btn-topo.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
