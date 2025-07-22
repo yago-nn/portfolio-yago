@@ -111,6 +111,8 @@
         text-align: justify;
         max-width: 100%;
         width: auto;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .botoes {
