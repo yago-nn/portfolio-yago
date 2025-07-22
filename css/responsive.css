@@ -110,7 +110,7 @@
     .card-exemplo p {
         text-align: justify;
         box-sizing: border-box;
-        max-width: 100%;
+        max-width: 80%;
         width: auto;
         word-wrap: break-word;
         overflow-wrap: break-word;
