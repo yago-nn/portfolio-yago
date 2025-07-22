@@ -98,11 +98,13 @@
 
     .card-exemplo {
         display: flex;
+        box-sizing: border-box;
         justify-content: center !important;
         text-align: center !important;
         margin-right: 8vw !important;
         width: 90vw !important;
         height: 63vh;
+        padding: 16px;
     }
 
     .card-exemplo p {
