@@ -56,7 +56,8 @@
         gap: 20px;
         column-gap: 1px !important;
         justify-content: center;
-        margin-left: 8%;
+        margin-left: 5%;
+        margin-bottom: 90px !important;
     }
 
     .grid-itens .item {
