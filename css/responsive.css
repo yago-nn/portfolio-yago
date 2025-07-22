@@ -115,9 +115,10 @@
         border-radius: 8px;
     }
     #contato{
-        width: 80vw;
+        width: 90vw;
         text-align: center;
         margin: 10vw !important;
+        align-self: center;
         justify-content:center !important;
         padding: 11% 12%;
     }
