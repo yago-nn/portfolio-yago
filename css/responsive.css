@@ -5,27 +5,30 @@
         margin-left: 10px;
     }
 
-    .nav{
+    .nav {
         display: flex;
         max-width: 100vw !important;
         margin: 0 6vw 0;
         padding: 3% 0 3%;
     }
 
-    .img{
+    .img {
         margin: 0 !important;
     }
-    .info{
+
+    .info {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    
-    .bt{
+
+    .bt {
         margin: 0 !important;
     }
-    #home img, .circulo {
+
+    #home img,
+    .circulo {
         display: none;
     }
 
@@ -40,7 +43,7 @@
         text-align: center;
     }
 
-    .info-sem-bt{
+    .info-sem-bt {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -51,52 +54,61 @@
         flex-wrap: wrap;
         gap: 20px;
         column-gap: 1px !important;
-        justify-content: center; /* Ajusta o alinhamento dos itens */
+        justify-content: center;
+        /* Ajusta o alinhamento dos itens */
         margin-left: 5vw;
     }
 
-    .grid-itens .item { /* Estilo para os itens */
-        flex: 1 1 150px; /* Adiciona flexibilidade para os itens */
-        max-width: 200px; /* Garante que os itens não estiquem demais */
+    .grid-itens .item {
+        /* Estilo para os itens */
+        flex: 1 1 150px;
+        /* Adiciona flexibilidade para os itens */
+        max-width: 200px;
+        /* Garante que os itens não estiquem demais */
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center; /* Alinha o conteúdo dentro dos itens */
+        align-items: center;
+        /* Alinha o conteúdo dentro dos itens */
         text-align: center;
     }
 
     .grid-itens .item p {
-        margin: 10px 0; /* Adiciona espaçamento entre o texto e o ícone */
+        margin: 10px 0;
+        /* Adiciona espaçamento entre o texto e o ícone */
     }
 
     .grid-itens .item i,
     .grid-itens .item img {
-        max-width: 50px; /* Limita o tamanho do ícone/imagem */
+        max-width: 50px;
+        /* Limita o tamanho do ícone/imagem */
     }
 
-    .andamento{
+    .andamento {
         width: 70vw !important;
         margin-left: 5vw;
     }
 
-    .cards{
+    .cards {
         display: flex;
         margin-left: 0%;
         overflow-x: auto;
     }
-    .card-exemplo{
+
+    .card-exemplo {
         display: flex;
         justify-content: center !important;
         text-align: center !important;
         margin-right: 8vw !important;
-        width: 88vw !important;
+        width: 90vw !important;
         height: 63vh;
     }
-     .card-exemplo p{
+
+    .card-exemplo p {
         text-align: justify;
-        margin: 0;
-        width: 60vw;
+        max-width: 100%;
+        width: auto;
     }
 
     .botoes {
@@ -104,7 +116,7 @@
         margin: 25px 0px 0 !important;
         justify-content: space-between;
     }
-    
+
     .botoes button {
         background-color: transparent;
         cursor: pointer;
@@ -114,27 +126,31 @@
         border-bottom: 7px solid white;
         border-radius: 8px;
     }
-    #contato{
+
+    #contato {
         width: 90vw;
         text-align: center;
         margin: 10vw !important;
         align-self: center;
-        justify-content:center !important;
+        justify-content: center !important;
         padding: 11% 12%;
     }
-    #contato p{
+
+    #contato p {
         width: 60vw;
         margin-bottom: 30px !important;
     }
-    #contato h2{
+
+    #contato h2 {
         width: 80vw;
     }
-    #contato i{
+
+    #contato i {
         margin: 0 10px;
     }
 
-    footer p{
+    footer p {
         font-size: 10pt;
     }
-    
+
 }
