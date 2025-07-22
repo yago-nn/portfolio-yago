@@ -1,0 +1,110 @@
+@media (max-width: 900px) {
+    .container {
+        display: flex;
+        padding: 0;
+    }
+
+    .img{
+        margin: 0 !important;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bt{
+        margin: 0 !important;
+    }
+    #home img, .circulo {
+        display: none;
+    }
+
+    #home {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .digitando {
+        font-size: 30pt !important;
+        text-align: center;
+    }
+
+    .info-sem-bt{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grid-itens {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        column-gap: 1px !important;
+        justify-content: center; /* Ajusta o alinhamento dos itens */
+        margin: 0 auto;
+    }
+
+    .grid-itens .item { /* Estilo para os itens */
+        flex: 1 1 150px; /* Adiciona flexibilidade para os itens */
+        max-width: 200px; /* Garante que os itens não estiquem demais */
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; /* Alinha o conteúdo dentro dos itens */
+        text-align: center;
+    }
+
+    .grid-itens .item p {
+        margin: 10px 0; /* Adiciona espaçamento entre o texto e o ícone */
+    }
+
+    .grid-itens .item i,
+    .grid-itens .item img {
+        max-width: 50px; /* Limita o tamanho do ícone/imagem */
+    }
+
+    .andamento{
+        width: 77vw !important;
+    }
+
+    .cards{
+        display: flex;
+        margin-left: 0%;
+        overflow-x: auto;
+    }
+    .card-exemplo{
+        display: flex;
+        justify-content: center !important;
+        text-align: center !important;
+        margin-right: 8vw !important;
+        width: 80vw !important;
+        height: 70vh;
+    }
+     .card-exemplo p{
+        text-align: justify;
+        margin: 0;
+        width: 60vw;
+    }
+    #contato{
+        width: 80vw;
+        text-align: center;
+        margin: 10vw !important;
+        justify-content:center !important;
+        padding: 0%;
+    }
+    #contato p{
+        width: 60vw;
+        margin-bottom: 30px !important;
+    }
+    #contato i{
+        margin: 0 10px;
+    }
+
+    footer p{
+        font-size: 10pt;
+    }
+    
+}
