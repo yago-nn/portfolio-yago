@@ -109,6 +109,7 @@
 
     .card-exemplo p {
         text-align: justify;
+        box-sizing: border-box;
         max-width: 100%;
         width: auto;
         word-wrap: break-word;
