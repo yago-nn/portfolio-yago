@@ -1,0 +1,57 @@
+#technologys {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 0 0 20px;
+  margin: 90px 8vw 30px;
+  border-bottom: 0.1em solid rgb(83, 83, 83);
+  scroll-margin-top: 80px; 
+
+}
+.grid-itens {
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.item {
+  background-color: #111; /* exemplo, ajuste à sua paleta */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+  flex: 1 1 150px; /* Cresce e encolhe, mas começa com 150px */
+  max-width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #99ff00;
+  background: transparent;
+}
+
+.item i img {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+}
+
+.andamento {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  width: 32%;
+}
+
+
+.item i{
+  background: transparent;
+  width: 50px;
+  height: 50px;
+}
